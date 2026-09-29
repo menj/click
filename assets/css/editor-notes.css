@@ -1,0 +1,22 @@
+/**
+ * menj.click — post editor canvas for Notes: write in the reading face.
+ */
+
+.editor-styles-wrapper .is-root-container,
+.editor-styles-wrapper .wp-block-post-content {
+	font-family: var(--wp--preset--font-family--sabon-next);
+	font-size: 1.1875rem;
+	line-height: 1.72;
+}
+
+.editor-styles-wrapper .editor-post-title,
+.editor-styles-wrapper .wp-block-post-title,
+.editor-styles-wrapper .is-root-container :is(h2, h3, h4) {
+	font-family: var(--wp--preset--font-family--sabon-next);
+	font-weight: 600;
+	letter-spacing: -0.01em;
+}
+
+.editor-styles-wrapper .is-root-container :is(code, pre) {
+	font-family: var(--wp--preset--font-family--fira-code);
+}

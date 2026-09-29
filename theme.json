@@ -1,0 +1,736 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Dusk",
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": {
+			"contentSize": "700px",
+			"wideSize": "1080px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{
+					"color": "#F7F5F0",
+					"name": "Background",
+					"slug": "base"
+				},
+				{
+					"color": "#0E1624",
+					"name": "Ink",
+					"slug": "contrast"
+				},
+				{
+					"color": "#1560E8",
+					"name": "Link",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#3485F0",
+					"name": "Bright accent",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#1F2530",
+					"name": "Dark surface",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#566779",
+					"name": "Muted text",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Card",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#E4E2DB",
+					"name": "Lines",
+					"slug": "accent-6"
+				},
+				{
+					"color": "#48AC7C",
+					"name": "Tile green",
+					"slug": "tile-green"
+				},
+				{
+					"color": "#4058E8",
+					"name": "Tile blue",
+					"slug": "tile-blue"
+				},
+				{
+					"color": "#7C38C4",
+					"name": "Tile purple",
+					"slug": "tile-purple"
+				},
+				{
+					"color": "#F0A42C",
+					"name": "Tile amber",
+					"slug": "tile-amber"
+				},
+				{
+					"color": "#D8444C",
+					"name": "Tile red",
+					"slug": "tile-red"
+				},
+				{
+					"color": "#288CAC",
+					"name": "Tile teal",
+					"slug": "tile-teal"
+				}
+			]
+		},
+		"custom": {
+			"hero": {
+				"skyTop": "#0E1A26",
+				"skyMid": "#1E3242",
+				"skyGlow": "#7A6A5C",
+				"glowCore": "rgba(214, 168, 122, 0.35)",
+				"glowEdge": "rgba(214, 168, 122, 0)",
+				"ridgeFar": "#3B4D5B",
+				"ridgeBack": "#2A3A48",
+				"ridgeMid": "#1C2A36",
+				"ridgeFront": "#111C26",
+				"ridgeNear": "#070D14",
+				"mist": "rgba(160, 176, 190, 0.16)",
+				"text": "#FFFFFF",
+				"muted": "rgba(255, 255, 255, 0.84)",
+				"shadeRgb": "4 10 18",
+				"accent": "#3D8EFA"
+			}
+		},
+		"typography": {
+			"fluid": true,
+			"defaultFontSizes": false,
+			"writingMode": true,
+			"fontFamilies": [
+				{
+					"name": "Inter",
+					"slug": "inter",
+					"fontFamily": "Inter, \"Noto Naskh Arabic\", \"SBL Hebrew\", \"Noto Sans Syriac\", \"Noto Sans Cuneiform\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/inter/inter-latin-wght-normal.woff2"
+							],
+							"unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/inter/inter-latin-ext-wght-normal.woff2"
+							],
+							"unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+						}
+					]
+				},
+				{
+					"name": "Sabon Next",
+					"slug": "sabon-next",
+					"fontFamily": "\"Sabon Next LT\", \"EB Garamond\", \"SBL Hebrew\", \"Noto Naskh Arabic\", \"Noto Sans Syriac\", \"Noto Sans Cuneiform\", Georgia, \"Times New Roman\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "Sabon Next LT",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/sabon-next-lt/sabon-next-lt-regular.ttf"
+							],
+							"unicodeRange": "U+0000, U+000D, U+0020-007F, U+00A0-0137, U+0139-017F, U+0181, U+0186, U+0189-018A, U+018E-0192, U+0194, U+0198-0199, U+01A0-01A1, U+01AF-01B0, U+01B2-01B4, U+01B7, U+01DD, U+01FA-01FF, U+0218-021B, U+0237, U+0253-0254, U+0256-0257, U+0259, U+025B, U+0263, U+0283, U+028B, U+0292, U+02BB-02BC, U+02C6-02C7, U+02C9, U+02D8-02DD, U+0300-0301, U+0303, U+0309, U+0323, U+0400-045F, U+0490-0493, U+0496-0497, U+049A-049B, U+04B0-04B3, U+04B6-04B7, U+051A-051D, U+058F, U+060B, U+09F2-09F3, U+0AF1, U+0BF9, U+0E3F, U+17DB, U+1E62-1E63, U+1E80-1E85, U+1EA0-1EA1, U+1EB8-1EB9, U+1ECA-1ECD, U+1EE4-1EE5, U+1EF2-1EF3, U+2013-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-207B, U+2080-208B, U+20A0-20BF, U+2113, U+2116-2117, U+2122, U+2126, U+212E, U+2133, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+FB00-FB06, U+FDFC"
+						},
+						{
+							"fontFamily": "Sabon Next LT",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/sabon-next-lt/sabon-next-lt-italic.ttf"
+							],
+							"unicodeRange": "U+0000, U+000D, U+0020-007F, U+00A0-0137, U+0139-017F, U+0181, U+0186, U+0189-018A, U+018E-0192, U+0194, U+0198-0199, U+01A0-01A1, U+01AF-01B0, U+01B2-01B4, U+01B7, U+01DD, U+01FA-01FF, U+0218-021B, U+0237, U+0253-0254, U+0256-0257, U+0259, U+025B, U+0263, U+0283, U+028B, U+0292, U+02BB-02BC, U+02C6-02C7, U+02C9, U+02D8-02DD, U+0300-0301, U+0303, U+0309, U+0323, U+0400-045F, U+0490-0493, U+0496-0497, U+049A-049B, U+04B0-04B3, U+04B6-04B7, U+051A-051D, U+058F, U+060B, U+09F2-09F3, U+0AF1, U+0BF9, U+0E3F, U+17DB, U+1E62-1E63, U+1E80-1E85, U+1EA0-1EA1, U+1EB8-1EB9, U+1ECA-1ECD, U+1EE4-1EE5, U+1EF2-1EF3, U+2013-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-207B, U+2080-208B, U+20A0-20BF, U+2113, U+2116-2117, U+2122, U+2126, U+212E, U+2133, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+FB00-FB06, U+FDFC"
+						},
+						{
+							"fontFamily": "Sabon Next LT",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/sabon-next-lt/sabon-next-lt-bold.ttf"
+							],
+							"unicodeRange": "U+0000, U+000D, U+0020-007F, U+00A0-0137, U+0139-017F, U+0181, U+0186, U+0189-018A, U+018E-0192, U+0194, U+0198-0199, U+01A0-01A1, U+01AF-01B0, U+01B2-01B4, U+01B7, U+01DD, U+01FA-01FF, U+0218-021B, U+0237, U+0253-0254, U+0256-0257, U+0259, U+025B, U+0263, U+0283, U+028B, U+0292, U+02BB-02BC, U+02C6-02C7, U+02C9, U+02D8-02DD, U+0300-0301, U+0303, U+0309, U+0323, U+0400-045F, U+0490-0493, U+0496-0497, U+049A-049B, U+04B0-04B3, U+04B6-04B7, U+051A-051D, U+058F, U+060B, U+09F2-09F3, U+0AF1, U+0BF9, U+0E3F, U+17DB, U+1E62-1E63, U+1E80-1E85, U+1EA0-1EA1, U+1EB8-1EB9, U+1ECA-1ECD, U+1EE4-1EE5, U+1EF2-1EF3, U+2013-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-207B, U+2080-208B, U+20A0-20BF, U+2113, U+2116-2117, U+2122, U+2126, U+212E, U+2133, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+FB00-FB06, U+FDFC"
+						},
+						{
+							"fontFamily": "Sabon Next LT",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/sabon-next-lt/sabon-next-lt-bold-italic.ttf"
+							],
+							"unicodeRange": "U+0000, U+000D, U+0020-007F, U+00A0-0137, U+0139-017F, U+0181, U+0186, U+0189-018A, U+018E-0192, U+0194, U+0198-0199, U+01A0-01A1, U+01AF-01B0, U+01B2-01B4, U+01B7, U+01DD, U+01FA-01FF, U+0218-021B, U+0237, U+0253-0254, U+0256-0257, U+0259, U+025B, U+0263, U+0283, U+028B, U+0292, U+02BB-02BC, U+02C6-02C7, U+02C9, U+02D8-02DD, U+0300-0301, U+0303, U+0309, U+0323, U+0400-045F, U+0490-0493, U+0496-0497, U+049A-049B, U+04B0-04B3, U+04B6-04B7, U+051A-051D, U+058F, U+060B, U+09F2-09F3, U+0AF1, U+0BF9, U+0E3F, U+17DB, U+1E62-1E63, U+1E80-1E85, U+1EA0-1EA1, U+1EB8-1EB9, U+1ECA-1ECD, U+1EE4-1EE5, U+1EF2-1EF3, U+2013-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030, U+2039-203A, U+2044, U+2070, U+2074-207B, U+2080-208B, U+20A0-20BF, U+2113, U+2116-2117, U+2122, U+2126, U+212E, U+2133, U+2202, U+2206, U+220F, U+2211-2212, U+2215, U+2219-221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+FB00-FB06, U+FDFC"
+						}
+					]
+				},
+				{
+					"name": "EB Garamond",
+					"slug": "eb-garamond",
+					"fontFamily": "\"EB Garamond\", \"SBL Hebrew\", Georgia, serif",
+					"fontFace": [
+						{
+							"fontFamily": "EB Garamond",
+							"fontStyle": "normal",
+							"fontWeight": "400 800",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/eb-garamond/eb-garamond-basic-normal.woff2"
+							],
+							"unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontStyle": "italic",
+							"fontWeight": "400 800",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/eb-garamond/eb-garamond-basic-italic.woff2"
+							],
+							"unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontStyle": "normal",
+							"fontWeight": "400 800",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/eb-garamond/eb-garamond-ext-normal.woff2"
+							],
+							"unicodeRange": "U+0100-0130, U+0132-0151, U+0154-02BA, U+02BD-02BF, U+02C4, U+02C7-02D1, U+02D8-02D9, U+02DB, U+02DD-02DE, U+02E0-02E3, U+02F7, U+0300-0303, U+0305-0307, U+0309-0328, U+032A-033E, U+0340-0345, U+0351, U+0353, U+0357, U+035D, U+0361, U+0364, U+0374-0375, U+037A, U+037E, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03CF, U+03D1-03D7, U+03D9, U+03DB-03DD, U+03E1, U+03F0-03F2, U+03F9, U+03FB, U+0400-045F, U+0462-0463, U+046A-046B, U+0470, U+0472-0477, U+048A-04FF, U+0510-0513, U+051A-051D, U+0524-0529, U+052E-052F, U+1D00-1D02, U+1D04-1D07, U+1D0A-1D0D, U+1D0F, U+1D18, U+1D1B-1D1C, U+1D20-1D22, U+1D26-1D2A, U+1D2C-1D2E, U+1D30-1D31, U+1D33-1D3A, U+1D3C, U+1D3E-1D43, U+1D47-1D4A, U+1D4D, U+1D4F-1D52, U+1D56-1D58, U+1D5B, U+1D61-1D65, U+1D6A, U+1D9C, U+1D9E, U+1DA0, U+1DBB, U+1DBE, U+1DC4, U+1DD3, U+1E00-1F15, U+1F18-1F1D, U+1F20-1F45, U+1F48-1F4D, U+1F50-1F57, U+1F59, U+1F5B, U+1F5D, U+1F5F-1F7D, U+1F80-1FB4, U+1FB6-1FC4, U+1FC6-1FD3, U+1FD6-1FDB, U+1FDD-1FEF, U+1FF2-1FF4, U+1FF6-1FFE, U+2070-2071, U+2074-208E, U+2090-209C, U+20A1, U+20A3-20A9, U+20AB, U+20AD-20AE, U+20B1-20B2, U+20B4-20B5, U+20B8-20BA, U+20BC-20BD, U+2100-2101, U+2103, U+2105-2106, U+2109, U+210E, U+2112-2113, U+2116, U+211E-2120, U+2123, U+2126-2127, U+212A-212B, U+212E, U+2139, U+214B, U+2150, U+2153-2154, U+215B-215E, U+2160-217F, U+2190, U+2192, U+2194-219B, U+219E-21A2, U+21AE, U+21D0-21D3, U+21DA-21DB, U+2202, U+2205-2207, U+220F-2211, U+2213, U+2216, U+2219-221A, U+221E, U+2223-2226, U+222B, U+2236, U+223C, U+2241, U+2248, U+2260, U+2264-2265, U+226A-226B, U+226E-226F, U+22C5, U+22EF, U+2303, U+2329-232A, U+2474-24B5, U+25A0-25A1, U+25B2-25B3, U+25B6-25B7, U+25BC-25BD, U+25C0-25C1, U+25C6-25C7, U+25CA, U+25E6, U+2619, U+261C-261E, U+267E, U+270A-270C, U+2753, U+2757, U+2766-2767, U+27E8-27EB, U+2A74-2A76, U+2B45-2B46, U+2C60-2C7F, U+2E18, U+2E22-2E25, U+2E28-2E29, U+2E2E, U+2E3A-2E3B, U+3003, U+3008-300B, U+A726-A731, U+A742-A743, U+A749, U+A751, U+A753, U+A757, U+A759, U+A76B, U+A78D-A78E, U+A7AA, U+A7FB-A7FF, U+FB00-FB06, U+1F1E6-1F1FF, U+1F44C-1F44D"
+						},
+						{
+							"fontFamily": "EB Garamond",
+							"fontStyle": "italic",
+							"fontWeight": "400 800",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/eb-garamond/eb-garamond-ext-italic.woff2"
+							],
+							"unicodeRange": "U+0100-0130, U+0132-0151, U+0154-0250, U+0254, U+0256, U+0258-025C, U+025F, U+0263, U+0270, U+0275-0276, U+028A, U+0292, U+02B0-02B3, U+02B7-02BA, U+02BD-02BF, U+02C4, U+02C7-02D1, U+02D8-02D9, U+02DB, U+02DD-02DE, U+02E0-02E3, U+02F7, U+0300-0303, U+0305-0307, U+0309-0328, U+032A-033E, U+0340-0345, U+0351, U+0353, U+0357, U+035D, U+0361, U+0364, U+0374-0375, U+037A, U+037E, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03D7, U+03DC, U+03F0-03F1, U+03F9, U+0400-045F, U+0462-0463, U+046A-046B, U+0470, U+0472-0477, U+048A-04FF, U+0510-0513, U+051A-051D, U+0524-0529, U+052E-052F, U+1D02, U+1D2C-1D2E, U+1D30-1D31, U+1D33-1D3A, U+1D3C, U+1D3E-1D43, U+1D47-1D4A, U+1D4D, U+1D4F-1D52, U+1D56-1D58, U+1D5B, U+1D61-1D65, U+1D68, U+1D6A, U+1D9C, U+1D9E, U+1DA0, U+1DBB, U+1DBE, U+1DC4, U+1DD3, U+1E00-1F15, U+1F18-1F1D, U+1F20-1F45, U+1F48-1F4D, U+1F50-1F57, U+1F59, U+1F5B, U+1F5D, U+1F5F-1F7D, U+1F80-1FB4, U+1FB6-1FC4, U+1FC6-1FD3, U+1FD6-1FDB, U+1FDD-1FEF, U+1FF2-1FF4, U+1FF6-1FFE, U+2071, U+207A-208E, U+2090-209C, U+20A1, U+20A3-20A9, U+20AB, U+20AD-20AE, U+20B1-20B2, U+20B4-20B5, U+20B8-20BA, U+20BC-20BD, U+2100-2101, U+2103, U+2105-2106, U+2109, U+210E, U+2112-2113, U+2116, U+211E-2120, U+2123, U+2126-2127, U+212A-212B, U+212E, U+2139, U+214B, U+2150, U+2153-2154, U+215B-215E, U+2160-217F, U+2190, U+2192, U+2194-219B, U+219E-21A2, U+21AE, U+21D0-21D3, U+21DA-21DD, U+2202, U+2205-2207, U+220F-2211, U+2213, U+2216, U+2219-221A, U+221E, U+2223-2226, U+222B, U+2236, U+223C, U+2241, U+2248, U+2260, U+2264-2265, U+226A-226B, U+226E-226F, U+22C5, U+22EF, U+2303, U+2329-232A, U+2474-24B5, U+25A0-25A1, U+25B2-25B3, U+25B6-25B7, U+25BC-25BD, U+25C0-25C1, U+25C6-25C7, U+25CA, U+25E6, U+2619, U+261C-261E, U+267E, U+270A-270C, U+2753, U+2757, U+2766-2767, U+27E8-27EB, U+2A74-2A76, U+2B45-2B46, U+2C60-2C7F, U+2E18, U+2E22-2E25, U+2E28-2E29, U+2E2E, U+2E3A-2E3B, U+3003, U+3008-300B, U+A726-A731, U+A742-A743, U+A749, U+A751, U+A753, U+A757, U+A759, U+A76B, U+A78D-A78E, U+A7AA, U+A7FB-A7FF, U+FB00-FB06, U+1F1E6-1F1FF, U+1F44C-1F44D"
+						}
+					]
+				},
+				{
+					"name": "Special Elite",
+					"slug": "special-elite",
+					"fontFamily": "\"Special Elite\", \"Courier New\", monospace",
+					"fontFace": [
+						{
+							"fontFamily": "Special Elite",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/special-elite/special-elite.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "SBL Hebrew",
+					"slug": "sbl-hebrew",
+					"fontFamily": "\"SBL Hebrew\", \"Noto Serif Hebrew\", \"Times New Roman\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "SBL Hebrew",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/sbl/sbl-hebrew.ttf"
+							],
+							"unicodeRange": "U+0020-0040, U+005B-0060, U+007B-007E, U+00A0, U+0307-0308, U+030A, U+0323, U+0336, U+034F, U+0591-05C7, U+05D0-05EA, U+05F0-05F4, U+25CC, U+FB1D-FB36, U+FB38-FB3C, U+FB3E, U+FB40-FB41, U+FB43-FB44, U+FB46-FB4F"
+						}
+					]
+				},
+				{
+					"name": "SBL Greek",
+					"slug": "sbl-greek",
+					"fontFamily": "\"SBL Greek\", \"EB Garamond\", \"Times New Roman\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "SBL Greek",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/sbl/sbl-greek.ttf"
+							],
+							"unicodeRange": "U+0020-0040, U+005B-0060, U+007B-007E, U+00A0, U+0300-0301, U+0304-0308, U+030A, U+030C, U+0313-0314, U+0323, U+032F, U+0336, U+0342-0345, U+034F, U+0359, U+0374-0375, U+037A, U+037E, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03CE, U+03D0-03D1, U+03D5-03E1, U+03F0-03F3, U+03F5-03FF, U+1F00-1F15, U+1F18-1F1D, U+1F20-1F45, U+1F48-1F4D, U+1F50-1F57, U+1F59, U+1F5B, U+1F5D, U+1F5F-1F7D, U+1F80-1FB4, U+1FB6-1FC4, U+1FC6-1FD3, U+1FD6-1FDB, U+1FDD-1FEF, U+1FF2-1FF4, U+1FF6-1FFE"
+						}
+					]
+				},
+				{
+					"name": "SBL BibLit",
+					"slug": "sbl-biblit",
+					"fontFamily": "\"SBL BibLit\", \"EB Garamond\", \"Times New Roman\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "SBL BibLit",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/sbl/sbl-biblit.ttf"
+							],
+							"unicodeRange": "U+0000, U+000D, U+0020-007E, U+00A0-0148, U+014A-0180, U+0186, U+0189, U+018F-0192, U+0196-0197, U+019A, U+019F, U+01A9, U+01B7, U+01C2, U+01CD-01CE, U+01E6-01E7, U+01F4-01F5, U+01FA-01FF, U+0218-021B, U+0237, U+0254, U+0259, U+025B, U+0268-0269, U+0275, U+0283, U+0292, U+02B0, U+02B7-02BA, U+02BC-02BF, U+02C6-02C7, U+02C9-02CB, U+02D2-02D3, U+02D8-02DD, U+02F8, U+0300-0308, U+030A-030C, U+0310-0315, U+0323-0328, U+032C-032F, U+0331-0332, U+0336, U+0338, U+0342-0345, U+034F, U+0351, U+0357, U+0359, U+0360-0361, U+1E06-1E07, U+1E0C-1E0F, U+1E16-1E17, U+1E20-1E21, U+1E24-1E25, U+1E2A-1E2B, U+1E2E-1E2F, U+1E32-1E35, U+1E48-1E49, U+1E52-1E53, U+1E62-1E63, U+1E6C-1E6F, U+1E7E-1E85, U+1E92-1E96, U+1EF2-1EF3, U+2002-2011, U+2013-2016, U+2018-2022, U+2026, U+202A-202E, U+2030, U+2038-203A, U+2044, U+2056, U+2058-205E"
+						}
+					]
+				},
+				{
+					"name": "Noto Naskh Arabic",
+					"slug": "noto-naskh-arabic",
+					"fontFamily": "\"Noto Naskh Arabic\", \"Traditional Arabic\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "Noto Naskh Arabic",
+							"fontStyle": "normal",
+							"fontWeight": "400 700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/noto-naskh-arabic/noto-naskh-arabic-wght.woff2"
+							],
+							"unicodeRange": "U+0020-0040, U+005B-0060, U+007B-007E, U+00A0, U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08FF, U+200C-200F, U+25CC, U+FB50-FBC2, U+FBD3-FD8F, U+FD92-FDC7, U+FDCF, U+FDF0-FDFF, U+FE70-FE74, U+FE76-FEFC, U+FEFF"
+						}
+					]
+				},
+				{
+					"name": "KFGQPC HAFS Uthmanic Script",
+					"slug": "kfgqpc-hafs",
+					"fontFamily": "\"KFGQPC HAFS Uthmanic Script\", \"Noto Naskh Arabic\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "KFGQPC HAFS Uthmanic Script",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "block",
+							"src": [
+								"file:./assets/fonts/kfgqpc-hafs/kfgqpc-hafs-uthmanic-script.ttf"
+							],
+							"unicodeRange": "U+0020, U+0028-0029, U+0030-0039, U+005B, U+005D, U+00A0, U+0600-0621, U+0623-06FF, U+200C-200F, U+25CC, U+FC00-FD1D, U+FD50-FD7D"
+						}
+					]
+				},
+				{
+					"name": "Dubidam Arabic",
+					"slug": "dubidam-arabic",
+					"fontFamily": "\"Dubidam Arabic\", \"Noto Naskh Arabic\", sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Dubidam Arabic",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/dubidam-arabic/dubidam-arabic-light.otf"
+							],
+							"unicodeRange": "U+0020-0040, U+005B-0060, U+007B-007E, U+00A0, U+060C, U+0615, U+061B, U+061F, U+0621-063A, U+0640-0656, U+0658, U+065A, U+0660-0671, U+0679, U+067E, U+0686, U+0688, U+068A, U+068E, U+0690-0691, U+0695, U+0698, U+069C, U+069F-06A1, U+06A4-06A5, U+06A7-06A9, U+06AE-06AF, U+06B5, U+06BA, U+06BD-06BE, U+06C1-06C3, U+06C6, U+06CC, U+06CE, U+06D1-06D5, U+06F0-06F9, U+0762, U+FD3E-FD3F, U+FDFC"
+						},
+						{
+							"fontFamily": "Dubidam Arabic",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/dubidam-arabic/dubidam-arabic-regular.otf"
+							],
+							"unicodeRange": "U+0020-0040, U+005B-0060, U+007B-007E, U+00A0, U+060C, U+0615, U+061B, U+061F, U+0621-063A, U+0640-0656, U+0658, U+065A, U+0660-0671, U+0679, U+067E, U+0686, U+0688, U+068A, U+068E, U+0690-0691, U+0695, U+0698, U+069C, U+069F-06A1, U+06A4-06A5, U+06A7-06A9, U+06AE-06AF, U+06B5, U+06BA, U+06BD-06BE, U+06C1-06C3, U+06C6, U+06CC, U+06CE, U+06D1-06D5, U+06F0-06F9, U+0762, U+FD3E-FD3F, U+FDFC"
+						},
+						{
+							"fontFamily": "Dubidam Arabic",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/dubidam-arabic/dubidam-arabic-bold.otf"
+							],
+							"unicodeRange": "U+0020-0040, U+005B-0060, U+007B-007E, U+00A0, U+060C, U+0615, U+061B, U+061F, U+0621-063A, U+0640-0656, U+0658, U+065A, U+0660-0671, U+0679, U+067E, U+0686, U+0688, U+068A, U+068E, U+0690-0691, U+0695, U+0698, U+069C, U+069F-06A1, U+06A4-06A5, U+06A7-06A9, U+06AE-06AF, U+06B5, U+06BA, U+06BD-06BE, U+06C1-06C3, U+06C6, U+06CC, U+06CE, U+06D1-06D5, U+06F0-06F9, U+0762, U+FD3E-FD3F, U+FDFC"
+						}
+					]
+				},
+				{
+					"name": "Arslan Wessam A",
+					"slug": "arslan-wessam-a",
+					"fontFamily": "\"Arslan Wessam A\", \"Noto Naskh Arabic\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "Arslan Wessam A",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "block",
+							"src": [
+								"file:./assets/fonts/arslan-wessam/arslan-wessam-a.ttf"
+							],
+							"unicodeRange": "U+0020-002C, U+002E-0040, U+005B-0060, U+007B-007E, U+060C-060D, U+0610-0614, U+061B, U+061F, U+0621-063A, U+0640-0659, U+065C-065E, U+0660-0670, U+0674-0678, U+06A1-06A2, U+06A9-06AA, U+06B9-06BA, U+06C0-06C3, U+06CC, U+06D4-06ED, U+06F0-06F9, U+200C-200F, U+25CC, U+FB6C-FB6D, U+FB78-FB79, U+FB8B, U+FB8F-FB91, U+FBA5, U+FBA7-FBA9, U+FBAB-FBAD, U+FBD8, U+FBDC, U+FBE8-FBE9, U+FBFD-FC25, U+FC29-FC37, U+FC3B-FC44, U+FC48-FC5A, U+FC64-FC7B, U+FC80-FC88, U+FC8A-FC8F, U+FC91-FCB7, U+FCBA-FCC3, U+FCC7-FCD8, U+FCDA-FCE6, U+FCEB-FCEC, U+FCEE-FCF1, U+FCFB-FCFE, U+FD05-FD10, U+FD17-FD1A, U+FD21-FD24, U+FD29-FD30, U+FD3E-FD3F, U+FD86, U+FD88, U+FD8A, U+FD8D, U+FD8F, U+FDB5, U+FDBA, U+FDF2, U+FDFC, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEEC, U+FEEE, U+FEF0, U+FEF2-FEFC"
+						}
+					]
+				},
+				{
+					"name": "Arslan Wessam B",
+					"slug": "arslan-wessam-b",
+					"fontFamily": "\"Arslan Wessam B\", \"Noto Naskh Arabic\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "Arslan Wessam B",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "block",
+							"src": [
+								"file:./assets/fonts/arslan-wessam/arslan-wessam-b.ttf"
+							],
+							"unicodeRange": "U+0020-002C, U+002E-0040, U+005B-0060, U+007B-007E, U+060C-060D, U+0610-0614, U+061B, U+061F, U+0621-063A, U+0640-0659, U+065C-065E, U+0660-0670, U+0674-0678, U+06A1-06A2, U+06A9-06AA, U+06B9-06BA, U+06C0-06C3, U+06CC, U+06D4-06ED, U+06F0-06F9, U+200C-200F, U+25CC, U+FB6C-FB6D, U+FB78-FB79, U+FB8B, U+FB8F-FB91, U+FBA5, U+FBA7-FBA9, U+FBAB-FBAD, U+FBD8, U+FBDC, U+FBE8-FBE9, U+FBFD-FC25, U+FC29-FC37, U+FC3B-FC44, U+FC48-FC5A, U+FC64-FC7B, U+FC80-FC88, U+FC8A-FC8F, U+FC91-FCB7, U+FCBA-FCC3, U+FCC7-FCD8, U+FCDA-FCE6, U+FCEB-FCEC, U+FCEE-FCF1, U+FCFB-FCFE, U+FD05-FD10, U+FD17-FD1A, U+FD21-FD24, U+FD29-FD30, U+FD3E-FD3F, U+FD86, U+FD88, U+FD8A, U+FD8D, U+FD8F, U+FDB5, U+FDBA, U+FDF2, U+FDFC, U+FE84, U+FE86, U+FE88, U+FE8A-FE8C, U+FE8E, U+FE90-FE92, U+FE94, U+FE96-FE98, U+FE9A-FE9C, U+FE9E-FEA0, U+FEA2-FEA4, U+FEA6-FEA8, U+FEAA, U+FEAC, U+FEAE, U+FEB0, U+FEB2-FEB4, U+FEB6-FEB8, U+FEBA-FEBC, U+FEBE-FEC0, U+FEC2-FEC4, U+FEC6-FEC8, U+FECA-FECC, U+FECE-FED0, U+FED2-FED4, U+FED6-FED8, U+FEDA-FEDC, U+FEDE-FEE0, U+FEE2-FEE4, U+FEE6-FEEC, U+FEEE, U+FEF0, U+FEF2-FEFC"
+						}
+					]
+				},
+				{
+					"name": "Noto Sans Syriac",
+					"slug": "noto-sans-syriac",
+					"fontFamily": "\"Noto Sans Syriac\", \"Estrangelo Edessa\", sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Noto Sans Syriac",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/noto-sans-syriac/noto-sans-syriac-400.woff2"
+							],
+							"unicodeRange": "U+0020-0021, U+0028-002B, U+002D-002F, U+003A, U+003D, U+005B-005D, U+00A0, U+0303-0304, U+0307-0308, U+030A, U+0320, U+0323-0325, U+032D-032E, U+0330-0331, U+060C, U+061B-061C, U+061F, U+0621, U+0640, U+064B-0655, U+0660-066C, U+0670, U+0700-074F, U+0860-086A, U+1DF8, U+1DFA, U+200C-200F, U+25CC, U+2670-2671"
+						},
+						{
+							"fontFamily": "Noto Sans Syriac",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/noto-sans-syriac/noto-sans-syriac-700.woff2"
+							],
+							"unicodeRange": "U+0020-0021, U+0028-002B, U+002D-002F, U+003A, U+003D, U+005B-005D, U+00A0, U+0303-0304, U+0307-0308, U+030A, U+0320, U+0323-0325, U+032D-032E, U+0330-0331, U+060C, U+061B-061C, U+061F, U+0621, U+0640, U+064B-0655, U+0660-066C, U+0670, U+0700-074F, U+0860-086A, U+1DF8, U+1DFA, U+200C-200F, U+25CC, U+2670-2671"
+						}
+					]
+				},
+				{
+					"name": "Evangelion CPA",
+					"slug": "evangelion-cpa",
+					"fontFamily": "\"Evangelion CPA\", \"Noto Sans Syriac\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "Evangelion CPA",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "block",
+							"src": [
+								"file:./assets/fonts/evangelion-cpa/evangelion-cpa.woff2"
+							],
+							"unicodeRange": "U+0020-0040, U+005B-0060, U+007B-007E, U+00A0, U+0307-0308, U+0323-0324, U+0700-0701, U+0703, U+070D, U+0710, U+0712-0713, U+0715-071B, U+071D, U+071F-0723, U+0725-072C, U+EC46-EC47"
+						}
+					]
+				},
+				{
+					"name": "Estrangelo (legacy)",
+					"slug": "estrangelo-legacy",
+					"fontFamily": "\"Estrangelo Legacy\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "Estrangelo Legacy",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "block",
+							"src": [
+								"file:./assets/fonts/estrangelo/estrangelo-legacy.ttf"
+							]
+						}
+					]
+				},
+				{
+					"name": "Noto Sans Cuneiform",
+					"slug": "noto-sans-cuneiform",
+					"fontFamily": "\"Noto Sans Cuneiform\", sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Noto Sans Cuneiform",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/noto-sans-cuneiform/noto-sans-cuneiform.woff2"
+							],
+							"unicodeRange": "U+0020-0040, U+005B-0060, U+007B-007E, U+00A0, U+12000-12399, U+12400-1246E, U+12470-12474, U+12480-12543"
+						}
+					]
+				},
+				{
+					"name": "Manrope",
+					"slug": "manrope",
+					"fontFamily": "Manrope, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Manrope",
+							"fontStyle": "normal",
+							"fontWeight": "200 800",
+							"src": [
+								"file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "Fira Code",
+					"slug": "fira-code",
+					"fontFamily": "\"Fira Code\", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+					"fontFace": [
+						{
+							"fontFamily": "\"Fira Code\"",
+							"fontStyle": "normal",
+							"fontWeight": "300 700",
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2"
+							]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"slug": "small",
+					"size": "0.875rem",
+					"fluid": false
+				},
+				{
+					"name": "Medium",
+					"slug": "medium",
+					"size": "1rem",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.0625rem"
+					}
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"size": "1.25rem",
+					"fluid": {
+						"min": "1.125rem",
+						"max": "1.3125rem"
+					}
+				},
+				{
+					"name": "Extra Large",
+					"slug": "x-large",
+					"size": "1.75rem",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2rem"
+					}
+				},
+				{
+					"name": "Extra Extra Large",
+					"slug": "xx-large",
+					"size": "2.5rem",
+					"fluid": {
+						"min": "2.15rem",
+						"max": "3.25rem"
+					}
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
+		"spacing": {
+			"blockGap": "1.2rem",
+			"padding": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "0px",
+				"left": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|inter",
+			"fontSize": "var:preset|font-size|medium",
+			"fontWeight": "400",
+			"letterSpacing": "normal",
+			"lineHeight": "1.6"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|accent-1"
+				},
+				"typography": {
+					"textDecoration": "none"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "underline"
+					}
+				},
+				":focus": {
+					"outline": {
+						"color": "var:preset|color|accent-1",
+						"offset": "2px",
+						"style": "solid",
+						"width": "2px"
+					}
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|inter",
+					"fontWeight": "700",
+					"lineHeight": "1.15",
+					"letterSpacing": "-0.02em"
+				},
+				"color": {
+					"text": "var:preset|color|contrast"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var:preset|font-size|xx-large",
+					"letterSpacing": "-0.035em"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var:preset|font-size|x-large",
+					"letterSpacing": "-0.025em"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var:preset|font-size|large"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var:preset|font-size|medium"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"letterSpacing": "0"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"letterSpacing": "0.08em",
+					"textTransform": "uppercase"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var:preset|color|accent-1",
+					"text": "var:preset|color|accent-5"
+				},
+				"border": {
+					"radius": "8px"
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "600"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.7rem",
+						"bottom": "0.7rem",
+						"left": "1.3rem",
+						"right": "1.3rem"
+					}
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|contrast",
+						"text": "var:preset|color|base"
+					}
+				},
+				":focus": {
+					"outline": {
+						"color": "var:preset|color|accent-1",
+						"offset": "2px",
+						"style": "solid",
+						"width": "2px"
+					}
+				}
+			},
+			"caption": {
+				"color": {
+					"text": "var:preset|color|accent-4"
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"lineHeight": "1.45"
+				}
+			}
+		},
+		"blocks": {
+			"core/navigation": {
+				"typography": {
+					"fontSize": "0.96875rem",
+					"fontWeight": "500"
+				}
+			},
+			"core/quote": {
+				"border": {
+					"color": "var:preset|color|accent-1",
+					"style": "solid",
+					"width": "0 0 0 3px"
+				}
+			},
+			"core/code": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontWeight": "700"
+				}
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	]
+}

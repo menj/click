@@ -1,0 +1,100 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Midnight",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#0B111C",
+					"name": "Background",
+					"slug": "base"
+				},
+				{
+					"color": "#E8EDF5",
+					"name": "Ink",
+					"slug": "contrast"
+				},
+				{
+					"color": "#7AB0FF",
+					"name": "Link",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#5A9BFF",
+					"name": "Bright accent",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#060A12",
+					"name": "Dark surface",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#9AA8BA",
+					"name": "Muted text",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#121B2A",
+					"name": "Card",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#223047",
+					"name": "Lines",
+					"slug": "accent-6"
+				},
+				{
+					"color": "#3E9E72",
+					"name": "Tile green",
+					"slug": "tile-green"
+				},
+				{
+					"color": "#4A62E0",
+					"name": "Tile blue",
+					"slug": "tile-blue"
+				},
+				{
+					"color": "#8A4FD6",
+					"name": "Tile purple",
+					"slug": "tile-purple"
+				},
+				{
+					"color": "#D98F1F",
+					"name": "Tile amber",
+					"slug": "tile-amber"
+				},
+				{
+					"color": "#D1505B",
+					"name": "Tile red",
+					"slug": "tile-red"
+				},
+				{
+					"color": "#2E93B3",
+					"name": "Tile teal",
+					"slug": "tile-teal"
+				}
+			]
+		},
+		"custom": {
+			"hero": {
+				"skyTop": "#04070D",
+				"skyMid": "#0B1522",
+				"skyGlow": "#1E2B3F",
+				"glowCore": "rgba(120, 150, 210, 0.18)",
+				"glowEdge": "rgba(120, 150, 210, 0)",
+				"ridgeFar": "#1A2636",
+				"ridgeBack": "#131D2B",
+				"ridgeMid": "#0E1623",
+				"ridgeFront": "#09101A",
+				"ridgeNear": "#04080E",
+				"mist": "rgba(120, 140, 170, 0.10)",
+				"text": "#FFFFFF",
+				"muted": "rgba(232, 237, 245, 0.8)",
+				"shadeRgb": "2 5 10",
+				"accent": "#5A9BFF"
+			}
+		}
+	}
+}

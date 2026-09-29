@@ -1,0 +1,19 @@
+/*
+Theme Name: menj.click
+Theme URI: https://menj.click/
+Description: A personal link hub on Twenty Twenty-Five: native short links with click stats, native QR codes that never need reprinting, a curated website directory with paid listings, a Notes blog, multi-script typography (Hebrew, Greek, Syriac, CPA, Arabic, Qur'an, cuneiform) and four colour schemes. Everything lives in the theme; settings are under menj.click in the dashboard.
+Author: menj
+Author URI: https://github.com/menj
+Template: twentytwentyfive
+Version: 2.1.4
+Update URI: https://menj.click/
+Requires at least: 6.7
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: menj-click
+Tags: block-theme, full-site-editing, blog, one-column, custom-colors, style-variations, rtl-language-support, translation-ready
+*/
+
+/* Styles live in assets/css/. This file only carries the theme header. */

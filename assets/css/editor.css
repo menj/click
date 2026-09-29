@@ -1,0 +1,20 @@
+/**
+ * menj.click — editor canvas.
+ */
+
+/* Server-rendered previews shouldn't be clickable in the editor. */
+.wp-block-menj-hero a,
+.wp-block-menj-link-panel a,
+.wp-block-menj-short-links a,
+.wp-block-menj-qr-grid a,
+.wp-block-menj-latest-notes a,
+.wp-block-menj-social a,
+.wp-block-menj-wordmark a { pointer-events: none; }
+
+.editor-styles-wrapper .menj-hero { margin-block: 0; }
+.editor-styles-wrapper .menj-hero__bg > svg { height: 100%; }
+
+.editor-styles-wrapper .menj-lang {
+	text-decoration: underline dotted color-mix(in srgb, currentColor 45%, transparent);
+	text-underline-offset: 0.25em;
+}

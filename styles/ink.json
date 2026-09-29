@@ -1,0 +1,114 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Ink",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#FAFAF8",
+					"name": "Background",
+					"slug": "base"
+				},
+				{
+					"color": "#111111",
+					"name": "Ink",
+					"slug": "contrast"
+				},
+				{
+					"color": "#111111",
+					"name": "Link",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#6B6B6B",
+					"name": "Bright accent",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#111111",
+					"name": "Dark surface",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#5E5E5E",
+					"name": "Muted text",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Card",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#E3E3E0",
+					"name": "Lines",
+					"slug": "accent-6"
+				},
+				{
+					"color": "#2B2B2B",
+					"name": "Tile green",
+					"slug": "tile-green"
+				},
+				{
+					"color": "#2B2B2B",
+					"name": "Tile blue",
+					"slug": "tile-blue"
+				},
+				{
+					"color": "#2B2B2B",
+					"name": "Tile purple",
+					"slug": "tile-purple"
+				},
+				{
+					"color": "#2B2B2B",
+					"name": "Tile amber",
+					"slug": "tile-amber"
+				},
+				{
+					"color": "#2B2B2B",
+					"name": "Tile red",
+					"slug": "tile-red"
+				},
+				{
+					"color": "#2B2B2B",
+					"name": "Tile teal",
+					"slug": "tile-teal"
+				}
+			]
+		},
+		"custom": {
+			"hero": {
+				"skyTop": "#1A1A1A",
+				"skyMid": "#2E2E2E",
+				"skyGlow": "#5A5A5A",
+				"glowCore": "rgba(255, 255, 255, 0.10)",
+				"glowEdge": "rgba(255, 255, 255, 0)",
+				"ridgeFar": "#3A3A3A",
+				"ridgeBack": "#2C2C2C",
+				"ridgeMid": "#202020",
+				"ridgeFront": "#151515",
+				"ridgeNear": "#0A0A0A",
+				"mist": "rgba(255, 255, 255, 0.07)",
+				"text": "#FFFFFF",
+				"muted": "rgba(255, 255, 255, 0.82)",
+				"shadeRgb": "0 0 0",
+				"accent": "#A8A8A8"
+			}
+		}
+	},
+	"styles": {
+		"elements": {
+			"link": {
+				"typography": {
+					"textDecoration": "underline"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				}
+			}
+		}
+	}
+}

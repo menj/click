@@ -1,0 +1,42 @@
+/**
+ * menj.click — languages and scripts.
+ *
+ * Text tagged with the editor's Language button (or a block's Language
+ * setting) gets lang/dir attributes; these rules choose the face. Each
+ * font carries a unicode-range, so it downloads only when used.
+ */
+
+:lang(he), :lang(hbo) { font-family: var(--wp--preset--font-family--sbl-hebrew); }
+:lang(grc), :lang(el) { font-family: var(--wp--preset--font-family--sbl-greek); }
+:lang(syc), :lang(syr) { font-family: var(--wp--preset--font-family--noto-sans-syriac); }
+:lang(ar) { font-family: var(--wp--preset--font-family--noto-naskh-arabic); }
+:is(h1, h2, h3, h4, h5, h6):lang(ar) { font-family: var(--wp--preset--font-family--dubidam-arabic); font-weight: 700; letter-spacing: 0; }
+:lang(akk), :lang(sux), :lang(hit) { font-family: var(--wp--preset--font-family--noto-sans-cuneiform); }
+
+[data-menj-variant="cpa"] { font-family: var(--wp--preset--font-family--evangelion-cpa); }
+[data-menj-variant="quran"] { font-family: var(--wp--preset--font-family--kfgqpc-hafs); }
+[data-menj-variant="calligraphy"] { font-family: var(--wp--preset--font-family--arslan-wessam-a); }
+[data-menj-variant="calligraphy-b"] { font-family: var(--wp--preset--font-family--arslan-wessam-b); }
+[data-menj-variant="translit"] { font-family: var(--wp--preset--font-family--sbl-biblit); }
+[data-menj-variant="estrangelo"] { font-family: var(--wp--preset--font-family--estrangelo-legacy); }
+
+/* Optical sizing: scripts that set small next to Latin text (headings keep theirs). */
+:not(h1, h2, h3, h4, h5, h6):is([lang="he"], [lang="hbo"], [lang="syc"], [lang="arc"]) { font-size: 1.12em; }
+:not(h1, h2, h3, h4, h5, h6)[lang="ar"]:not([data-menj-variant]) { font-size: 1.1em; }
+:not(h1, h2, h3, h4, h5, h6)[lang="akk"] { font-size: 1.08em; }
+:not(h1, h2, h3, h4, h5, h6)[data-menj-variant="quran"] { font-size: 1.28em; }
+:not(h1, h2, h3, h4, h5, h6)[data-menj-variant^="calligraphy"] { font-size: 1.7em; }
+:not(h1, h2, h3, h4, h5, h6)[data-menj-variant="estrangelo"] { font-size: 1.15em; }
+
+/* Roomier lines for blocks set in these scripts. */
+:where(p, li, blockquote, figcaption, div, pre, td)[lang="he"],
+:where(p, li, blockquote, figcaption, div, pre, td)[lang="syc"],
+:where(p, li, blockquote, figcaption, div, pre, td)[lang="arc"],
+:where(p, li, blockquote, figcaption, div, pre, td)[lang="ar"] { line-height: 1.85; }
+
+:where(p, li, blockquote, div)[data-menj-variant="quran"] { line-height: 2.2; }
+:where(p, li, blockquote, div)[data-menj-variant^="calligraphy"] { line-height: 1.6; }
+
+/* Right-to-left blocks: align to the start of their own direction. */
+:where(p, li, blockquote, h1, h2, h3, h4, h5, h6, figcaption, div)[dir="rtl"] { text-align: start; }
+blockquote[dir="rtl"] { padding-inline-start: 1.1em; }
